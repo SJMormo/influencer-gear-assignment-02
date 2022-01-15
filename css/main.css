@@ -178,7 +178,7 @@ nav a {
     margin-bottom: 2px;
 }
 
-.fa-star {
+.fa-star, .fa-star-half-alt {
     color: #FB8200;
     width: 11.07px;
     height: 10.32px;
