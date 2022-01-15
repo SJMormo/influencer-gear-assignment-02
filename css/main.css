@@ -68,6 +68,7 @@ nav {
     font-weight: 700;
 }
 
+
 nav ul {
     justify-content: space-between;
     padding-left: 120px;
@@ -248,7 +249,7 @@ footer {
 
 
 /*------ Mobile Devices ------*/
-@media only screen and (max-width:688px) {
+@media (max-width:688px) {
     nav {
         padding-left: 120px;           
     }
@@ -281,7 +282,7 @@ footer {
 }
 
 /*------ tablet devices ------*/
-@media only screen and (min-width:689) and (max-width:992px) {
+@media (min-width:688px) and (max-width:992px) {
     nav {
         padding-left: 120px;           
     }
@@ -300,12 +301,13 @@ footer {
     }
     .popular-collections {
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
     }
 
     .logo {
         margin-top: 60%;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 3px;
+        column-gap: 10px;
     }
 
     .nav-right, hr{
