@@ -100,6 +100,29 @@ nav a {
     height: 270px;
 }
 
+.journey-start .right-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.journey-start .right-card .photo-detail {
+    display: none;
+    width: 440px;
+    text-align: justify;
+    position: absolute;
+    top: 0;
+}
+
+.right-card:hover .photo-detail {
+    display: block;
+    background-color: rgba(230, 209, 201, 0.2);
+}
+
+.right-card:hover .photo {
+    transform: scale(1.2);
+    transition: transform 0.2 ease-in-out;
+}
+
 .logo {
     justify-content: space-evenly;
 }
