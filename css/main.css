@@ -49,6 +49,7 @@ hr {
 
 .flexible-items {
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -100,6 +101,10 @@ nav a {
     height: 270px;
 }
 
+.fa-arrow-right {
+    margin-left: 10px;
+}
+
 .journey-start .right-card {
     position: relative;
     overflow: hidden;
@@ -115,16 +120,19 @@ nav a {
 
 .right-card:hover .photo-detail {
     display: block;
-    background-color: rgba(230, 209, 201, 0.2);
+    color: rgb(2, 0, 0);
+    background-color: rgba(230, 209, 201, 0.5);
 }
 
 .right-card:hover .photo {
     transform: scale(1.2);
-    transition: transform 0.2 ease-in-out;
+    transition: transform 1 ease-in-out;
 }
 
 .logo {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 
@@ -188,6 +196,7 @@ nav a {
 
 /* ------Footer ------ */
 footer {
+    text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: black;
@@ -208,4 +217,39 @@ footer {
     height: 32px;
     width: 32px;
     color: white;
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    nav {
+        padding-left: 120px;           
+    }
+    .journey-start, .logo, .popular-collection, footer {
+        width: 100%;
+    }
+    .left-card {
+        order: 2;
+    }
+    .right-card {
+        order: 1;
+    }
+    .journey-start {
+        flex-direction: column;
+        text-align: center;
+    }
+    .popular-collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logo {
+        margin-top: 30%;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 3px;
+    }
+
+    .nav-right, hr{
+        display: none;
+    }
+
 }
