@@ -251,7 +251,7 @@ footer {
 /*------ Mobile Devices ------*/
 @media (max-width:688px) {
     nav {
-        padding-left: 120px;           
+        text-align: center;        
     }
     .journey-start, .logo, .popular-collection, footer {
         width: 100%;
@@ -284,7 +284,7 @@ footer {
 /*------ tablet devices ------*/
 @media (min-width:688px) and (max-width:992px) {
     nav {
-        padding-left: 120px;           
+        text-align: center;        
     }
     .journey-start, .logo, .popular-collection, footer {
         width: 100%;
