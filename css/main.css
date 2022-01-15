@@ -254,6 +254,9 @@ footer {
 
 /*------ Mobile Devices ------*/
 @media (max-width:688px) {
+    nav>ul {
+        display: none;
+    }
     nav {
         text-align: center;        
     }
@@ -265,6 +268,9 @@ footer {
     }
     .right-card {
         order: 1;
+    }
+    .right-card .photo img{
+        width: 100%;
     }
     .journey-start {
         flex-direction: column;
@@ -280,7 +286,7 @@ footer {
         column-gap: 3px;
     }
 
-    .nav-right, hr{
+    hr{
         display: none;
     }
 }
@@ -298,6 +304,9 @@ footer {
     }
     .right-card {
         order: 1;
+    }
+    .right-card .photo img{
+        width: 100%;
     }
     .journey-start {
         flex-direction: column;
