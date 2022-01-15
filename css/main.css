@@ -254,13 +254,10 @@ footer {
 
 /*------ Mobile Devices ------*/
 @media (max-width:688px) {
-    nav>ul {
-        display: none;
-    }
     nav {
         text-align: center;        
     }
-    .journey-start, .logo, .popular-collection, footer {
+    .left-card, .right-card, .logo-section, .popular-items, footer {
         width: 100%;
     }
     .left-card {
@@ -286,7 +283,7 @@ footer {
         column-gap: 3px;
     }
 
-    hr{
+    .nav-right, hr{
         display: none;
     }
 }
@@ -296,7 +293,7 @@ footer {
     nav {
         text-align: center;        
     }
-    .journey-start, .logo, .popular-collection, footer {
+    .left-card, .right-card, .logo-section, .popular-items, footer {
         width: 100%;
     }
     .left-card {
