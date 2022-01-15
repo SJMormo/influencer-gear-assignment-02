@@ -193,6 +193,33 @@ nav a {
     color: #787885;
 }
 
+#see-more {
+    text-decoration: none;
+    color: #E02C6D;
+    padding: 10px 24px;  
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 75%;
+}
+
+.faq a {
+    text-decoration: none;
+    color: black;
+}
+
+.connect-with-us {
+    margin-bottom: 2%;
+}
+
+#connect-button {
+    /* background-color: #E02C6D; */
+    padding: 5px 12px;  
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
 
 /* ------Footer ------ */
 footer {
