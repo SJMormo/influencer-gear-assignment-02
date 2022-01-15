@@ -130,6 +130,10 @@ nav a {
     transition: transform 1 ease-in-out;
 }
 
+.logo-section {
+    margin-top: 100px;
+}
+
 .logo {
     /* justify-content: space-evenly; */
     display: grid;
