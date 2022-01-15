@@ -278,5 +278,37 @@ footer {
     .nav-right, hr{
         display: none;
     }
+}
 
+/* tablet devices */
+@media only screen and (min-width:689) and (max-width:992px) {
+    nav {
+        padding-left: 120px;           
+    }
+    .journey-start, .logo, .popular-collection, footer {
+        width: 100%;
+    }
+    .left-card {
+        order: 2;
+    }
+    .right-card {
+        order: 1;
+    }
+    .journey-start {
+        flex-direction: column;
+        text-align: center;
+    }
+    .popular-collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logo {
+        margin-top: 60%;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3px;
+    }
+
+    .nav-right, hr{
+        display: none;
+    }
 }
