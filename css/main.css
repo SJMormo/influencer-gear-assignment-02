@@ -36,6 +36,12 @@ h3 {
     padding-bottom: 10px;
 }
 
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 hr {
     margin-left: 120px;
     margin-right: 120px;
@@ -100,11 +106,7 @@ nav a {
 
 
 /* ------ Popular Item section ------ */
-.popular-collection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .popular-collections {
     display: grid;
@@ -160,3 +162,25 @@ nav a {
     color: #787885;
 }
 
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer-link-area {
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 10px;
+    padding: 1px 5px;
+    background: rgb(56, 55, 55);
+    
+}
+
+.footer-links {
+    height: 32px;
+    width: 32px;
+    color: white;
+}
